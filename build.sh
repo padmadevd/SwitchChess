@@ -1,0 +1,2 @@
+g++ -w -o switch_chess.exe switch_chess.cpp chess.cpp uci_engine.cpp core.cpp assets.cpp utils.cpp anim_text.cpp scene_game.cpp -IC:/Users/padmadevd/programming/cyg_libs/include -I. -LC:/Users/padmadevd/programming/cyg_libs/libs -lraylib -luser32 -lgdi32 -lshell32
+./switch_chess.exe
